@@ -1,14 +1,25 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
-    val name = "Economics"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
+// Learning classes: a Quiz holds a subject and a score, and can check answers.
+data class Question(val text: String, val answer: String)
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
+class Quiz(val subject: String) {
+    var score = 0
+
+    fun checkAnswer(question: Question, studentAnswer: String) {
+        if (studentAnswer == question.answer) {
+            score = score + 1
+            println("Correct!")
+        } else {
+            println("Wrong. The answer is: " + question.answer)
+        }
     }
+}
+
+fun main() {
+    val quiz = Quiz("Economics")
+    val q1 = Question("What do we call the cost of the next best alternative?", "opportunity cost")
+
+    println("Quiz subject: " + quiz.subject)
+    quiz.checkAnswer(q1, "opportunity cost")
+    quiz.checkAnswer(q1, "scarcity")
+    println("Score: " + quiz.score)
 }
