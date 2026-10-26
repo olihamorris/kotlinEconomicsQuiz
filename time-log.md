@@ -11,8 +11,11 @@
 | 25/10/2026 | Documentation | Created the time log file | __ min |
 | 25/10/2026 | Documentation | Created the docs folder and wrote the first learning journal entry | __ min |
 | 25/10/2026 | Publishing | Created the public GitHub repository for the project | __ min |
-| 25/10/2026 | Publishing | Set up Git, made my first commit, and pushed the project to GitHub | __ min |  
-| 2026-10-26 | Learning | Practised val vs var, expressions, and if/else conditionals in Main.kt | 30 min |
-| 2026-10-26 | Learning | Wrote a for loop over a list, a checkAnswer function, a Question data class, and a Quiz class | 45 min |
-| 2026-10-26 | Debugging | Found and removed a stray closing bracket that caused a syntax error | 5 min |
-| 2026-10-26 | Git | Committed and pushed loops, functions, data class, and Quiz class work to GitHub | 5 min |
+| 25/10/2026 | Publishing | Set up Git, made my first commit, and pushed the project to GitHub | __ min |
+| 26/10/2026 | Learning | Practised val vs var, expressions, and if/else conditionals in Main.kt | 30 min |
+| 26/10/2026 | Learning | Wrote a for loop over a list, a checkAnswer function, a Question data class, and a Quiz class | 45 min |
+| 26/10/2026 | Troubleshooting | Found and removed a stray closing bracket that caused a syntax error | 5 min |
+| 26/10/2026 | Publishing | Committed and pushed the loops, functions, data class, and Quiz class work to GitHub | 5 min |
+| 26/10/2026 | Communication | Emailed the instructor to ask whether the video should be 1 minute or 4-5 minutes | __ min |
+| 26/10/2026 | Documentation | Updated the learning journal and time log with the 26/10 work | __ min |
+| 26/10/2026 | Documentation | Created README.md with Overview, Development Environment and Useful Websites sections | 20 min |
