@@ -19,3 +19,5 @@
 | 26/10/2026 | Communication | Emailed the instructor to ask whether the video should be 1 minute or 4-5 minutes | __ min |
 | 26/10/2026 | Documentation | Updated the learning journal and time log with the 26/10 work | __ min |
 | 26/10/2026 | Documentation | Created README.md with Overview, Development Environment and Useful Websites sections | 20 min |
+| 27/10/2026 | Publishing | Pushed README.md and the updated time log and learning journal to GitHub | 05 min |
+| 27/10/2026 | Implementation | Built the final Economics quiz: five questions in a list, a for loop, readLine input, and the Quiz class keeping the score | __ min |

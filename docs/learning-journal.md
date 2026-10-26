@@ -16,3 +16,11 @@
 - **What confused me:** A stray closing bracket caused a syntax error. I found it and removed it myself.
 - **Question to research next:** Why can a class have both `var` and `val` inside it?
 - - Added in 26/10/2026 entry, under "What I learned": A README explains the software, the tools used, and the websites that helped me.
+- ## 27/10/2026
+- **What I learned:**
+  - `readLine()` lets the program read what the user types.
+  - `.trim().lowercase()` cleans an answer before it is compared.
+  - A `for` loop, a list of `Question` objects, and the `Quiz` class work together to make a full program.
+  - `questions.size` gives the number of items in a list, so I do not need to type the number myself.
+- **What confused me:** Switching between the Terminal and the Run window was a bit confusing. The Run window is where my program prints its output and where I type my quiz answers. The Terminal is where I type commands like `git add .` and `git push`.
+- **Question to research next:** How do I make the questions come in a random order each time?
